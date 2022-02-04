@@ -1,7 +1,7 @@
-* {
-  padding: 0;
-  margin: 0;
+.container {
+  width: 100%;
 }
+
 
 .turbo-tax_header {
   margin-top: 10px !important;
@@ -21,4 +21,49 @@
 .news-issue p {
   text-align: center;
   color: #ffffff;
+}
+
+.one-box {
+  font-family: "Avenir Next", Arial, Helvetica, sans-serif;
+  background: #f1f1f1;
+  .hero {
+    padding-bottom: 0;
+  }
+}
+
+.one-box-text {
+  background: #f1f1f1;
+  p {
+    padding: 20px 20px 22px 10px;
+    background: #ffffff;
+    font-size: 14px;
+  }
+}
+
+.two-boxs {
+  background: #f1f1f1;
+  .box-one {
+    .title {
+      font-size: 15px;
+      padding-bottom: 16px;
+    }
+    .info {
+      font-size: 12.5px;
+      a {
+        color: #0082c3;
+      }
+    }
+  }
+  .box-two {
+    .title {
+      font-size: 15px;
+      padding-bottom: 15px;
+    }
+    .info {
+      font-size: 13px;
+      a {
+        color: #0082c3;
+      }
+    }
+  }
 }
