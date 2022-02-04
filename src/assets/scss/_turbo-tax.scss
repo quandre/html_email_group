@@ -67,3 +67,43 @@
     }
   }
 }
+
+.three-boxs {
+  background: #f1f1f1;
+  .sm-one {
+    .title {
+      font-size: 15px;
+      padding-bottom: 16px;
+    }
+    .info {
+      font-size: 12.5px;
+      a {
+        color: #0082c3;
+      }
+    }
+  }
+  .sm-two {
+    .title {
+      font-size: 15px;
+      padding-bottom: 16px;
+    }
+    .info {
+      font-size: 13px;
+      a {
+        color: #0082c3;
+      }
+    }
+  }
+  .sm-three {
+    .title {
+      font-size: 15px;
+      padding-bottom: 15px;
+    }
+    .info {
+      font-size: 13px;
+      a {
+        color: #0082c3;
+      }
+    }
+  }
+}
