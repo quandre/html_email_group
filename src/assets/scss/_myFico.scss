@@ -1,0 +1,200 @@
+bhtml,
+body,
+.body {
+  background: #ffffff !important;
+  background-color: #ffffff !important;
+  padding-bottom: 20px;
+}
+
+.myFico_header {
+  .columns {
+    padding: 20px !important;
+  }
+  .logo {
+    width: 150px;
+  }
+  .myFico_right {
+    & > table {
+      margin-top: 15px;
+      margin-left: 65% !important;
+    }
+    .sign-in_button {
+      font-family: arial, helvetica, sans-serif !important;
+      padding: 10px 15px !important;
+      border-radius: 3px;
+      border: 1px solid #00609c;
+      color: #196ad4;
+      font-weight: 600;
+      text-decoration: none;
+    }
+  }
+}
+
+.myFico_line {
+  width: 100%;
+  .columns {
+    padding: 0 0 3px 0 !important;
+  }
+  span {
+    height: 1px !important;
+  }
+  .blue-line {
+    font-size: 1px;
+    background: #00609c;
+    background-color: #00609c;
+    padding: 0px 600px 4px 0px !important;
+  }
+}
+
+.myFico_main-info {
+  font-family: Arial, Helvetica, sans-serif;
+  padding-bottom: 30px;
+  .columns {
+    padding: 0 20px !important;
+  }
+  img {
+    width: 560px;
+  }
+  span {
+    text-align: left;
+  }
+  span .info {
+    width: 600px !important;
+  }
+  .header {
+    color: #000000;
+    font-size: 18px;
+    font-weight: 600;
+  }
+  .info {
+    color: #000000;
+    font-size: 14px;
+  }
+  p {
+    width: 240px;
+  }
+  .button {
+    background: #00609c;
+    background-color: #00609c;
+    padding: 10px 0;
+    border: 1px solid #00609c;
+    color: #ffffff;
+    border-radius: 3px;
+    font-size: 16px;
+    text-decoration: none;
+    text-align: center;
+    vertical-align: middle;
+  }
+}
+
+.myFico_sub-info {
+  & > tbody > tr > th {
+    padding: 0 20px !important;
+  }
+
+  .left {
+    padding-right: 10px;
+    padding-bottom: 0;
+    height: 290px;
+    img {
+      width: 290px !important;
+    }
+    p {
+      width: 203px;
+    }
+    .button {
+      background: #00609c;
+      background-color: #00609c;
+      border: 1px solid #00609c;
+      color: #ffffff;
+      border-radius: 3px;
+      padding: 9px 0 8px 0 !important;
+      font-size: 16px;
+      text-decoration: none;
+      text-align: center;
+      vertical-align: middle;
+    }
+  }
+
+  .right {
+    padding-left: 10px;
+    padding-bottom: 0;
+    height: 296px;
+    img {
+      width: 290px !important;
+    }
+    p {
+      width: 203px;
+    }
+    .button {
+      background: #00609c;
+      background-color: #00609c;
+      border: 1px solid #00609c;
+      color: #ffffff;
+      border-radius: 3px;
+      padding: 9px 0 8px 0 !important;
+      font-size: 16px;
+      text-decoration: none;
+      text-align: center;
+      vertical-align: middle;
+    }
+  }
+}
+
+.myFico_forum {
+  background: #e6e6e6;
+  background-color: #e6e6e6;
+  padding: 0;
+  & > tbody > tr > th {
+    padding: 0 !important;
+  }
+  .title {
+    padding-bottom: 0;
+  }
+  .left > table > tbody > tr > th {
+    width: 80px;
+  }
+  .right {
+    padding: 0;
+    margin-left: 5px !important;
+    & > table {
+      margin-left: 6px !important;
+    }
+  }
+}
+
+.myFico_footer-top {
+  background: #d3dce2;
+  background-color: #d3dce2;
+  .columns {
+    padding: 0 !important;
+    & > table {
+      width: 40px;
+    }
+  }
+  .icons {
+    width: 40px !important;
+    margin-left: 20px;
+    margin-right: 37px;
+  }
+}
+
+.myFico_footer-bottom {
+  background: #e6e6e6;
+  background-color: #e6e6e6;
+  & >tbody > tr > th {
+    padding: 20px !important;
+  }
+  p{
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 20px;
+    text-align: left;
+    font-size: 12px;
+  }
+  a{
+    color: #196ad4;
+    text-decoration: underline;
+    font-size: 12px;
+  }
+}

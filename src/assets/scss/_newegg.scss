@@ -1,0 +1,191 @@
+html,
+body,
+.body {
+}
+
+.newegg_header {
+  background: #001723;
+  background-color: #001723;
+  & > tbody > tr > th {
+    padding: 0 25px;
+  }
+  .columns {
+    padding: 0;
+  }
+  .logo {
+    max-width: 200px !important;
+    margin: 0 auto;
+  }
+}
+.newegg_nav {
+  background: #001723;
+  background-color: #001723;
+  .link {
+    max-height: 20px;
+  }
+}
+.newegg_daily-deal {
+  background: #001723;
+  background-color: #001723;
+  .daily-deal_inside {
+    padding-top: 24px !important;
+    .columns {
+      padding: 0;
+    }
+    .top {
+      img {
+        width: 100%;
+      }
+    }
+    .bottom {
+      .columns {
+        img {
+          width: 218px !important;
+          height: 227px !important;
+        }
+      }
+    }
+  }
+}
+.newegg_supplies {
+  background: #001723;
+  background-color: #001723;
+  .newegg_supplies_inside {
+    .columns {
+      padding: 0 !important;
+    }
+    .top {
+      padding-top: 14px !important;
+      .columns {
+        img {
+          width: 600px !important;
+        }
+      }
+    }
+  }
+}
+
+.newegg_essentials {
+  background: #001723;
+  background-color: #001723;
+  .essentials_inside {
+    .columns {
+      padding: 0 !important;
+    }
+  }
+}
+
+.newegg_more {
+  background: #001723;
+  background-color: #001723;
+  .more_inside {
+    margin-top: 14px !important;
+    .columns {
+      padding: 0 !important;
+    }
+  }
+}
+
+.misc {
+  background: #001723;
+  background-color: #001723;
+  .misc_inside {
+    width: 600px !important;
+    .discovery-zone {
+      .discovery-zone_inside {
+        margin-top: 14px !important;
+        width: 100% !important;
+        .columns {
+          padding: 0 !important;
+        }
+      }
+    }
+    .newegg_small-promo-1 {
+      background: #0e2858;
+      background-color: #0e2858;
+      .columns {
+        padding: 0 !important;
+      }
+      small-promo-inside {
+        width: 100% !important;
+        padding: 0 16px !important;
+
+        .left {
+          width: 294px;
+          height: 70px;
+        }
+        .right {
+          width: 294px;
+          height: 100px;
+        }
+      }
+    }
+
+    .newegg_small-promo-2 {
+      background: #0e2858;
+      background-color: #0e2858;
+      margin-top: 14px !important;
+      padding: 0 16px !important;
+      .columns {
+        padding: 0 !important;
+      }
+      .left {
+        width: 294px;
+        height: 70px;
+      }
+      .right {
+        width: 294px;
+        height: 100px;
+      }
+    }
+
+    .newegg_pc-builder {
+      background: #0e2858;
+      background-color: #0e2858;
+      margin-top: 14px !important;
+      .columns {
+        padding: 0 !important;
+      }
+      .left {
+        width: 396px !important;
+        height: 90px;
+      }
+      .right {
+        width: 168px;
+        height: 33px;
+        padding: 30px 0 0;
+      }
+    }
+  }
+}
+
+.newegg_social-icons {
+  & > tbody > tr > th {
+    margin-right: 60px !important;
+  }
+  .columns.first.last {
+    padding: 20px 25px 0;
+  }
+  .columns > table {
+    width: 34px;
+    margin: 0 auto;
+  }
+  .icon {
+    width: 34px;
+  }
+}
+
+.newegg-footer_contact {
+  background: #001723;
+  background-color: #001723;
+  & > tbody > tr > th {
+    padding: 0 25px 6px !important;
+  }
+  .text {
+    font-size: 20px;
+    color: #818b8f;
+    font-family: "Open Sans semibold", "Arial Narrow", "Helvetica Narrow", arial,
+      helvetica, sans-serif;
+    text-align: center;
+  }
+}

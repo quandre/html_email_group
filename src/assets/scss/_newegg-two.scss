@@ -1,0 +1,132 @@
+html,
+body,
+.body {
+}
+
+.newegg-two_header {
+  background: #001723;
+  background-color: #001723;
+  & > tbody > tr > th {
+    padding: 0 25px;
+  }
+  .columns {
+    padding: 0;
+  }
+  .logo {
+    max-width: 200px !important;
+    margin: 0 auto;
+  }
+}
+.newegg-two_nav {
+  background: #001723;
+  background-color: #001723;
+  .link {
+    max-height: 20px;
+  }
+}
+.newegg-two_daily-deal {
+  background: #001723;
+  background-color: #001723;
+  .newegg-two_daily-deal_inside {
+    padding-top: 24px !important;
+    .columns {
+      padding: 0 !important;
+    }
+    .top {
+      img {
+        width: 100%;
+      }
+    }
+    .bottom {
+      .columns {
+        img {
+          width: 218px !important;
+          height: 227px !important;
+        }
+      }
+    }
+  }
+}
+.newegg-two_big-promo {
+  background: #001723;
+  background-color: #001723;
+  .newegg-two_big-promo-inside {
+    .columns {
+      padding: 0 !important;
+    }
+    .top {
+      padding-top: 14px !important;
+      .columns {
+        img {
+          width: 600px !important;
+        }
+      }
+    }
+  }
+}
+
+.newegg-two_misc {
+  background: #001723;
+  background-color: #001723;
+  .newegg-two_misc_inside {
+    .newegg-two_small-promo-1 {
+      background: #01334e;
+      background-color: #01334e;
+      margin-top: 14px !important;
+      width: 100% !important;
+      .columns {
+        padding: 0 !important;
+      }
+    }
+
+    .newegg-two_pc-builder {
+      background: #01334e;
+      background-color: #01334e;
+      margin-top: 14px !important;
+      width: 100% !important;
+      .columns {
+        padding: 0 !important;
+      }
+      .left {
+        width: 396px !important;
+        height: 90px;
+      }
+      .right {
+        width: 168px;
+        height: 33px;
+        padding: 30px 0 0;
+      }
+    }
+  }
+}
+
+.newegg-two_social-icons {
+  & > tbody > tr > th {
+    margin-right: 60px !important;
+  }
+  .columns.first.last {
+    padding: 20px 25px 0;
+  }
+  .columns > table {
+    width: 34px;
+    margin: 0 auto;
+  }
+  .icon {
+    width: 34px;
+  }
+}
+
+.newegg-two-footer_contact {
+  background: #001723;
+  background-color: #001723;
+  & > tbody > tr > th {
+    padding: 0 25px 6px !important;
+  }
+  .text {
+    font-size: 20px;
+    color: #818b8f;
+    font-family: "Open Sans semibold", "Arial Narrow", "Helvetica Narrow", arial,
+      helvetica, sans-serif;
+    text-align: center;
+  }
+}
