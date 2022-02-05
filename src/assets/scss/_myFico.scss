@@ -124,6 +124,7 @@ body,
 }
 
 .myFico_discount {
+  max-width: 100% !important;
   .discount_top {
     & > tbody > tr > th {
       padding-bottom: 0 !important;
@@ -149,17 +150,18 @@ body,
   }
 }
 
-
 .myFico_footer-top {
   background: #d3dce2;
   background-color: #d3dce2;
+  max-width: 100% !important;
   .columns {
-    padding: 0 !important;
+    padding: 0 0 10px !important;
     & > table {
       width: 40px;
     }
   }
   .icons {
+    padding-top: 20px;
     width: 40px !important;
     margin-left: 20px;
     margin-right: 37px;
@@ -170,7 +172,7 @@ body,
   background: #e6e6e6;
   background-color: #e6e6e6;
   & > tbody > tr > th {
-    padding: 20px !important;
+    padding: 10px 0 !important;
   }
   p {
     color: #000000;
@@ -178,6 +180,7 @@ body,
     line-height: 20px;
     text-align: left;
     font-size: 12px;
+    padding: 10px 20px !important;
   }
   a {
     color: #196ad4;
