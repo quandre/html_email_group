@@ -88,20 +88,20 @@ body,
       font-weight: 600;
       padding: 20px 0 10px !important;
     }
-  }
 
-  .left-button,
-  .right-button {
-    padding: 10px 0 20px!important;
-    .button {
-      background: #00609c;
-      padding: 10px 53px !important;
-      border: 1px solid #00609c;
-      color: #ffffff;
-      border-radius: 3px;
-      font-size: 16px;
-      text-decoration: none;
-      text-align: center;
+    .left-button,
+    .right-button {
+      padding: 10px 0 20px !important;
+      .button {
+        background: #00609c;
+        padding: 10px 55px !important;
+        border: 1px solid #00609c;
+        color: #ffffff;
+        border-radius: 3px;
+        font-size: 16px;
+        text-decoration: none;
+        text-align: center;
+      }
     }
   }
 }
@@ -109,24 +109,46 @@ body,
 .myFico_forum {
   background: #e6e6e6;
   background-color: #e6e6e6;
-  padding: 0;
   & > tbody > tr > th {
     padding: 0 !important;
   }
   .title {
     padding-bottom: 0;
   }
-  .left > table > tbody > tr > th {
-    width: 80px;
-  }
-  .right {
-    padding: 0;
+  .myFico_forum-right {
     margin-left: 5px !important;
     & > table {
       margin-left: 6px !important;
     }
   }
 }
+
+.myFico_discount {
+  .discount_top {
+    & > tbody > tr > th {
+      padding-bottom: 0 !important;
+    }
+    img {
+      max-width: 100%;
+    }
+  }
+  .discount_bottom {
+    p {
+      text-align: center;
+      font-size: 16px;
+    }
+  }
+  .discount_button {
+    margin-top: 10px;
+    .button {
+      padding: 12px 18px;
+      border: 1px solid #00609c;
+      border-radius: 3px;
+      color: #00609c;
+    }
+  }
+}
+
 
 .myFico_footer-top {
   background: #d3dce2;
