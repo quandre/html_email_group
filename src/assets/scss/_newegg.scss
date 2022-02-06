@@ -6,47 +6,107 @@ body,
 .newegg_header {
   background: #001723;
   background-color: #001723;
-  & > tbody > tr > th {
-    padding: 0 25px;
-  }
   .columns {
-    padding: 0;
+    padding: 0 !important;
   }
   .logo {
-    max-width: 200px !important;
+    max-width: 200px;
     margin: 0 auto;
+    padding-left: 20px;
   }
 }
+
 .newegg_nav {
   background: #001723;
   background-color: #001723;
-  .link {
-    max-height: 20px;
+  .columns {
+    padding: 0 !important;
+  }
+  & > tbody > tr > th {
+    padding-bottom: 15px !important;
+  }
+  .inside_container {
+    .link {
+      max-height: 20px !important;
+      height: 100% !important;
+    }
+    .img-1 {
+      max-width: 60px !important;
+    }
+    .img-2 {
+      max-width: 90px !important;
+    }
+    .img-3 {
+      max-width: 75px !important;
+    }
+    .img-4 {
+      max-width: 80px !important;
+    }
+    .img-5 {
+      max-width: 65px !important;
+    }
+    .img-6 {
+      max-width: 80px !important;
+    }
+    .img-7 {
+      max-width: 67px !important;
+    }
+    .img-8 {
+      max-width: 35px !important;
+    }
   }
 }
+
 .newegg_daily-deal {
-  background: #001723;
-  background-color: #001723;
-  .daily-deal_inside {
-    padding-top: 24px !important;
-    .columns {
-      padding: 0;
+  & > table {
+    table-layout: fixed;
+  }
+    .newegg_daily-deal-top {
+      .daily-deal_inside-top {
+        padding: 0 15px !important;
+        .top {
+          & > tbody > tr > th {
+            padding-bottom: 0 !important;
+          }
+          img {
+            max-width: 610px !important;
+            width: 100%;
+            height: auto !important;
+          }
+        }
+      } 
     }
-    .top {
-      img {
-        width: 100%;
-      }
-    }
-    .bottom {
-      .columns {
-        img {
-          width: 218px !important;
-          height: 227px !important;
+
+  .newegg_daily-deal-bottom {
+    background: #001723 !important;
+    background-color: #001723 !important;
+    table-layout: fixed;
+    .daily-deal_inside-bottom {
+      table-layout: fixed;
+      padding-bottom: 0 !important;
+      .bottom {
+        table-layout: fixed;
+        .daily-deal_left_img,
+        .daily-deal_right_img {
+          max-width: 300px !important;
+          width: 100% !important;
+          max-height: 214px !important;
+          height: 100% !important;
+        }
+        .daily-deal_middle_img {
+          table-layout: fixed;
+          max-width: 300px !important;
+          width: 100% !important;
+          max-height: 214px !important;
+          min-height: 147px !important;
+          height: 100% !important;
         }
       }
     }
   }
 }
+
+
 .newegg_supplies {
   background: #001723;
   background-color: #001723;
@@ -58,7 +118,8 @@ body,
       padding-top: 14px !important;
       .columns {
         img {
-          width: 600px !important;
+          max-width: 640px !important;
+          width: 100% !important;
         }
       }
     }
@@ -90,11 +151,11 @@ body,
   background: #001723;
   background-color: #001723;
   .misc_inside {
-    width: 600px !important;
+    max-width: 600px !important;
     .discovery-zone {
       .discovery-zone_inside {
         margin-top: 14px !important;
-        width: 100% !important;
+        max-width: 100% !important;
         .columns {
           padding: 0 !important;
         }
@@ -107,16 +168,16 @@ body,
         padding: 0 !important;
       }
       small-promo-inside {
-        width: 100% !important;
+        max-width: 100% !important;
         padding: 0 16px !important;
 
         .left {
-          width: 294px;
-          height: 70px;
+          max-width: 294px;
+          max-height: 70px;
         }
         .right {
-          width: 294px;
-          height: 100px;
+          max-width: 294px;
+          max-height: 100px;
         }
       }
     }
@@ -130,12 +191,14 @@ body,
         padding: 0 !important;
       }
       .left {
-        width: 294px;
-        height: 70px;
+        max-width: 294px;
+        width: 100%;
+        max-height: 70px;
       }
       .right {
-        width: 294px;
-        height: 100px;
+        max-width: 294px;
+        width: 100%;
+        max-height: 100px;
       }
     }
 
@@ -147,12 +210,14 @@ body,
         padding: 0 !important;
       }
       .left {
-        width: 396px !important;
-        height: 90px;
+        max-width: 396px !important;
+        width: 100%;
+        max-height: 90px;
       }
       .right {
-        width: 168px;
-        height: 33px;
+        max-width: 168px;
+        width: 100%;
+        max-height: 33px;
         padding: 30px 0 0;
       }
     }
@@ -167,11 +232,11 @@ body,
     padding: 20px 25px 0;
   }
   .columns > table {
-    width: 34px;
+    max-width: 34px;
     margin: 0 auto;
   }
   .icon {
-    width: 34px;
+    max-width: 34px;
   }
 }
 
