@@ -1,4 +1,44 @@
+@media only screen and (max-width: 430px) {
+  .news-issue {
+    p {
+      font-size: 13px !important;
+    }
+  }
+
+  .one-box {
+    .hero {
+      padding: 25px 0 0 !important;
+    }
+  }
+
+  .long-text {
+    .title {
+      font-size: 12px !important;
+      padding: 10px 5px !important;
+    }
+    .info {
+      font-size: 10px !important;
+    }
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .news-issue {
+    p {
+      font-size: 10px !important;
+    }
+  }
+
+  .long-text {
+    .title {
+      font-size: 11px !important;
+      padding: 5px 0 5px 5px !important;
+    }
+  }
+}
+
 .turbo-tax_header {
+  max-width: 640px;
   margin-top: 10px !important;
   .columns {
     padding: 0 !important;
@@ -7,8 +47,11 @@
 
 .news-issue {
   background: #393a3d;
-  .columns {
+  .text {
     padding: 5px 0 !important;
+    p {
+      font-size: 16px;
+    }
   }
 }
 
@@ -21,7 +64,7 @@
   font-family: "Avenir Next", Arial, Helvetica, sans-serif;
   background: #f1f1f1;
   .hero {
-    padding-bottom: 0;
+    padding: 35px 0 0;
   }
 }
 
@@ -139,12 +182,17 @@
   .long-text {
     background: #ffffff;
     background-color: #ffffff;
+    padding: 0;
+    p {
+      width: 100%;
+    }
     .title {
-      font-size: 15px;
-      padding: 30px 0 15px;
+      font-size: 14px;
+      padding: 20px 0 5px 5px;
     }
     .info {
-      font-size: 13px;
+      font-size: 12px;
+      padding: 0 15px 0 5px;
       a {
         color: #0082c3;
       }
